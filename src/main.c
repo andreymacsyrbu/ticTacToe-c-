@@ -9,11 +9,11 @@ char grid[3][6] = {
 int winner = 0;
  // player 1 variables
 int player1Input;
-char player1Symbol = 'X';
+const char player1Symbol = 'X';
 
 // player 2 variables
 int player2Input;
-char player2Symbol = 'O';
+const char player2Symbol = 'O';
 
 // print the grid to the console
 void printGrid(char array[3][6]) {
